@@ -12,6 +12,7 @@
 
 body {
   font-family: 'Poppins';
+  overflow-x: hidden;
 }
 
 .wrap {
@@ -128,7 +129,7 @@ body {
   background-color: var(--text-description-color);
   margin-top: 1rem;
   text-align: center;
-
+  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
